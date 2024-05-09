@@ -9,7 +9,7 @@ MPI (Message Passing Interface)는 병렬 컴퓨팅에서 프로세스 간 통�
 MPI 의 collective communication은 병렬 프로그래밍에서 모든 프로세스 간의 데이터 교환을 효율적으로 처리하는 기능입니다. 이러한 통신은 데이터를 공유하거나 프로세스 간에 특정 연산을 수행하기 위해 사용됩니다. collective communication은 모든 참여 프로세스가 통신에 참여해야 완료되며, 각 함수 호출은 모든 프로세스에서 동시에 이루어져야 합니다.
 
 ### Commnicator 
-MPI에서는 두 가지 주요 유형의 커뮤니케이터를 사용합니다:
+MPI에서는 두 가지 유형의 커뮤니케이터를 사용합니다:
 
 #### Intracommunicators
 * 같은 그룹 내의 프로세스들 사이의 통신을 위해 사용됩니다.
